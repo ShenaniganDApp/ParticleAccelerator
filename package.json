@@ -1,0 +1,51 @@
+{
+	"name": "particleaccelerator",
+	"version": "1.0.0",
+	"description": "Particle liquidity mining",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"precommit": "lint-staged",
+		"secrets": "node ./src/setupAragon.js",
+		"prepTX": "node ./src/processScores.js",
+		"sendTX": "node ./src/mint.js"
+	},
+	"author": "youngkidwarrior",
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"@aragon/os": "^4.4.0",
+		"@aragon/test-helpers": "^2.1.0",
+		"@aragon/toolkit": "0.0.5",
+		"bignumber.js": "9.0.0",
+		"ethereumjs-abi": "^0.6.8",
+		"homedir": "^0.6.0",
+		"node-fetch": "^2.6.1",
+		"truffle-hdwallet-provider": "^1.0.17",
+		"truffle-hdwallet-provider-privkey": "^0.3.0",
+		"web3": "^1.2.5-rc.0"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.1.0",
+		"eslint-config-prettier": "^6.10.1",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-jest": "^23.8.2",
+		"husky": "^4.2.3",
+		"jest": "24.8.0",
+		"lint-staged": "^10.1.2",
+		"prettier": "^2.0.4"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"**/*.+(js)": [
+			"eslint --fix",
+			"prettier --write",
+			"jest --findRelatedTests",
+			"git add"
+		]
+	}
+}

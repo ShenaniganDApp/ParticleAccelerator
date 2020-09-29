@@ -1,0 +1,39 @@
+name: "Run aragonCLI"
+
+on:
+  # Trigger on merging to master.
+  push:
+    branches:
+      - master
+      - schedule
+  # Runs the CLI At 00:00 on Sunday.
+  schedule:
+    - cron: 0 16 * * 0
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: "actions/checkout@v2"
+      - name: "Use Node.js ${{ matrix.node-version }}"
+        uses: "actions/setup-node@v1"
+        with:
+          node-version: "${{ matrix.node-version }}"
+          PRIVATE_KEY: "${{ secrets.PRIVATE_KEY }}"
+      - name: Setup aragonCLI signer
+        run: node ./src/setupAragon.js
+        env:
+          PRIVATE_KEY: "${{ secrets.PRIVATE_KEY }}"
+      - name: Install PA
+        run: npm ci
+      - name: Install Aragon
+        run: npm install -g @aragon/cli
+      - name: Prepare transaction
+        run: node ./src/processRewards.js
+      - name: Sending Transaction
+        run: node ./src/mint.js | sh
