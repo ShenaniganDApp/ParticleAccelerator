@@ -16,6 +16,9 @@ const query = `{
     pair: "0xa527dbc7cdb07dd5fdc2d837c7a2054e6d66daf4",
     liquidityTokenBalance_gt: "0"
   }) {
+    pair {
+      totalSupply
+    }
     user {
       address: id
     }
