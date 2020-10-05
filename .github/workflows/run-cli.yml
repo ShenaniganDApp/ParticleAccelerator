@@ -8,7 +8,7 @@ on:
       - schedule
   # Runs the CLI At 00:00 on Sunday.
   schedule:
-    - cron: 0 16 * * 0
+    - cron: 0 18 * * 0
 
 jobs:
   build:
@@ -33,6 +33,8 @@ jobs:
         run: npm ci
       - name: Install Aragon
         run: npm install -g @aragon/cli
+      - name: Fetch LPs
+      - run: node .
       - name: Prepare transaction
         run: node ./src/processRewards.js
       - name: Sending Transaction
