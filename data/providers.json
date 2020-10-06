@@ -359,5 +359,15 @@
     "user": {
       "address": "0xf7ef5d9b5fb5db8a51c2ae75e9a6ee6920300e07"
     }
+  },
+  {
+    "timestamp": 1601973381.118,
+    "liquidityTokenBalance": "76.929039043804049811",
+    "pair": {
+      "totalSupply": "3917.398808016636189349"
+    },
+    "user": {
+      "address": "0x8e59f1fe1c8d828dda49971ab96e6a003a7e2f81"
+    }
   }
 ]
