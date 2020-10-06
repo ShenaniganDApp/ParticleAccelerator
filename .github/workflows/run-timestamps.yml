@@ -1,0 +1,27 @@
+name: "Run timestamps"
+
+on:
+    schedule:
+    - cron: 0 * * * *
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: "actions/checkout@v2"
+      - name: "Use Node.js ${{ matrix.node-version }}"
+        uses: "actions/setup-node@v1"
+        with:
+          node-version: "${{ matrix.node-version }}"
+          PRIVATE_KEY: "${{ secrets.PRIVATE_KEY }}"
+      - name: Install PA
+        run: npm ci
+      - name: Update timestamps
+      - run: node .
+        env:
+          MINING_START_TIME: "${{ secrets.MINING_START_TIME }}"
