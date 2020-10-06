@@ -1,12 +1,7 @@
 name: "Run aragonCLI"
 
 on:
-  # Trigger on merging to master.
-  push:
-    branches:
-      - schedule
-  # Runs the CLI At 00:00 on Sunday.
-  schedule:
+    schedule:
     - cron: 0 18 * * 0
 
 jobs:
