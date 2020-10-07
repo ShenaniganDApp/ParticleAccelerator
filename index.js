@@ -36,7 +36,7 @@ async function updateProviders(data) {
             (oldProvider) => oldProvider.user.address === provider.user.address
           );
           if (userExists !== -1) {
-            liquidityProviders.push(userExists);
+            liquidityProviders.push(decodedContent[userExists]);
           } else {
             const timestamp = Date.now();
             liquidityProviders.push({ timestamp, ...provider });
