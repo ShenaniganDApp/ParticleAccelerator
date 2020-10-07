@@ -18,7 +18,7 @@ async function updateProviders(data) {
     fetch(providers, {
       method: "GET",
       headers: {
-        Authorization: `Bearer ${process.env.GITHUB_API_TOKEN}`,
+        Authorization: `Bearer ${process.env.API_TOKEN}`,
       },
     })
       .then((res) => res.json())
@@ -55,7 +55,7 @@ async function updateProviders(data) {
         fetch(providers, {
           method: "PUT",
           headers: {
-            Authorization: `Bearer ${process.env.GITHUB_API_TOKEN}`,
+            Authorization: `Bearer ${process.env.API_TOKEN}`,
           },
           body: marshalledBody,
         }).catch((err) => {
