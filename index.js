@@ -38,7 +38,7 @@ async function updateProviders(data) {
           if (userExists !== -1) {
             liquidityProviders.push(userExists);
           } else {
-            const timestamp = new Date().now();
+            const timestamp = Date.now();
             liquidityProviders.push({ timestamp, ...provider });
           }
         });
