@@ -30,19 +30,21 @@ async function updateProviders(data) {
         // it's returned as a base64 string.
         const decodedContent = decodeData(encodedContent); // Manipulated the decoded content:
         // First, check if the user already exists.
-
+        const liquidityProviders = [];
         data.forEach((provider) => {
           const userExists = decodedContent.findIndex(
             (oldProvider) => oldProvider.user.address === provider.user.address
           );
-          if (userExists === -1) {
+          if (userExists !== -1) {
+            liquidityProviders.push(userExists);
+          } else {
             const timestamp = new Date().now();
-            decodedContent.push({ timestamp, ...provider });
+            liquidityProviders.push({ timestamp, ...provider });
           }
         });
 
         // We encode the updated content to base64.
-        const updatedContent = encodeData(decodedContent);
+        const updatedContent = encodeData(liquidityProviders);
         // We prepare the body to be sent to the API.
         const marshalledBody = marshallFileUpdate({
           message: "Update providers.json",
