@@ -22,6 +22,6 @@ jobs:
       - name: Install PA
         run: npm ci
       - name: Update timestamps
-      - run: node .
+        run: node .
         env:
           MINING_START_TIME: "${{ secrets.MINING_START_TIME }}"
