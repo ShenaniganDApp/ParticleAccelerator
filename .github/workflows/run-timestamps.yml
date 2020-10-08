@@ -25,3 +25,4 @@ jobs:
         run: node .
         env:
           MINING_START_TIME: "${{ secrets.MINING_START_TIME }}"
+          API_KEY: "${{ secrets.API_KEY }}"
