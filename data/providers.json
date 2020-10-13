@@ -100,6 +100,16 @@
     }
   },
   {
+    "timestamp": 1602627691494,
+    "liquidityTokenBalance": "207.382786119284239646",
+    "pair": {
+      "totalSupply": "14707.784093516941417854"
+    },
+    "user": {
+      "address": "0x1dd6bbd20730657d3daead1718ba57cfac146c86"
+    }
+  },
+  {
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "75.912209058848959589",
     "pair": {
@@ -597,16 +607,6 @@
     },
     "user": {
       "address": "0xada4389661b5aa5756636ca7d3c051c3d04edabb"
-    }
-  },
-  {
-    "timestamp": "1601938800000",
-    "liquidityTokenBalance": "24.153546171160528834",
-    "pair": {
-      "totalSupply": "4428.203255463831715293"
-    },
-    "user": {
-      "address": "0xb0a9d798f7c8028b0e467b913a02b547d0528c4a"
     }
   },
   {
