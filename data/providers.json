@@ -450,6 +450,16 @@
     }
   },
   {
+    "timestamp": 1602858229339,
+    "liquidityTokenBalance": "1.111972611670422473",
+    "pair": {
+      "totalSupply": "16640.487914386248669454"
+    },
+    "user": {
+      "address": "0x9062a96b9e947b2b57283e705c97b871f5eb6561"
+    }
+  },
+  {
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "33.3693983642995904",
     "pair": {
