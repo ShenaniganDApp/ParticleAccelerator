@@ -1,5 +1,6 @@
 /* eslint-disable consistent-return */
 const fs = require("fs");
+const _ = require("lodash");
 const fetch = require("node-fetch");
 const BigNumber = require("bignumber.js");
 const dotenv = require("dotenv");
@@ -37,17 +38,18 @@ const AGENT_ADDRESS = "0x5cb045fd63f95c208048c38e0abd2cdb3537c68e";
         .dividedBy(totalSupply)
         .multipliedBy(+element.timestamp / +miningStartTime),
     ]);
-
-    let total = 0; // Variable to hold your total
+ 
+    let totalWeightedScores = 0; // Variable to hold your total
 
     for (let i = 0, len = providerRewards.length; i < len; i += 1) {
-      total += +providerRewards[i][1]; // Iterate over your first array and then grab the second element add the values up
+      console.log(+providerRewards[i][1]);
+      totalWeightedScores += +providerRewards[i][1]; // Iterate over your first array and then grab the second element add the values up
     }
 
     const normalizedRewards = providerRewards.map((reward) => [
       reward[0],
       reward[1]
-        .dividedBy(total)
+        .dividedBy(totalWeightedScores)
         .multipliedBy(tokensToMint)
         .toFixed(18)
         .toString(),
@@ -72,9 +74,11 @@ const AGENT_ADDRESS = "0x5cb045fd63f95c208048c38e0abd2cdb3537c68e";
     );
 
     // Cut decimals for transaction
-    providerMints.map((provider) => provider[1].replace(".", ""));
+    const cutProviderMints = providerMints.map((provider) => [provider[0],provider[1].replace(".", "")]);
     const settings = tx;
-    settings[0].mints = providerMints;
+    const splits = _.chunk(cutProviderMints, 50);
+
+    settings[0].mints = splits[1];
     return JSON.stringify(settings, null, 2);
   }
 
