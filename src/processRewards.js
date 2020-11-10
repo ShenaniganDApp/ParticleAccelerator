@@ -1,116 +1,101 @@
 /* eslint-disable consistent-return */
-const fs = require("fs");
-const _ = require("lodash");
-const fetch = require("node-fetch");
-const BigNumber = require("bignumber.js");
-const dotenv = require("dotenv");
-const transaction = require("../config/dao.json");
-const { tokensToMint } = require("../config/schedule.json");
+const fs = require('fs');
+const _ = require('lodash');
+const fetch = require('node-fetch');
+const BigNumber = require('bignumber.js');
+const dotenv = require('dotenv');
+const transaction = require('../config/dao.json');
+const { tokensToMint } = require('../config/schedule.json');
 
-const AGENT_ADDRESS = "0x5cb045fd63f95c208048c38e0abd2cdb3537c68e";
+const AGENT_ADDRESS = '0x5cb045fd63f95c208048c38e0abd2cdb3537c68e';
 
 (async function () {
-  dotenv.config();
-  const providersFile =
-    "https://raw.githubusercontent.com/ShenaniganDApp/ParticleAccelerator/master/data/providers.json";
+	dotenv.config();
+	const providersFile =
+		'https://raw.githubusercontent.com/ShenaniganDApp/ParticleAccelerator/master/data/providers.json';
 
-  let providers = await (await fetch(providersFile)).json();
-  let {
-    pair: { totalSupply },
-  } = providers[0];
+	let providers = await (await fetch(providersFile)).json();
+	let {
+		pair: { totalSupply },
+	} = providers[0];
 
-  function timeRewards() {
-    const miningStartTime = process.env.MINING_START_TIME;
+	function timeRewards() {
+		const miningStartTime = process.env.MINING_START_TIME;
 
-    const agent = providers.find(
-      (element) => element.user.address === AGENT_ADDRESS
-    );
-    if (agent) {
-      providers = providers.filter(
-        (element) => element.user.address !== agent.user.address
-      );
-      totalSupply -= agent.liquidityTokenBalance;
-    }
-    // Calculate rewards
-    const providerRewards = providers.map((element) => [
-      element.user.address,
-      new BigNumber(element.liquidityTokenBalance)
-        .dividedBy(totalSupply)
-        .multipliedBy(+element.timestamp / +miningStartTime),
-    ]);
- 
-    let totalWeightedScores = 0; // Variable to hold your total
+		const agent = providers.find((element) => element.user.address === AGENT_ADDRESS);
+		if (agent) {
+			providers = providers.filter((element) => element.user.address !== agent.user.address);
+			totalSupply -= agent.liquidityTokenBalance;
+		}
+		// Calculate rewards
+		const providerRewards = providers.map((element) => [
+			element.user.address,
+			new BigNumber(element.liquidityTokenBalance)
+				.dividedBy(totalSupply)
+				.multipliedBy(+element.timestamp / +miningStartTime),
+		]);
 
-    for (let i = 0, len = providerRewards.length; i < len; i += 1) {
-      console.log(+providerRewards[i][1]);
-      totalWeightedScores += +providerRewards[i][1]; // Iterate over your first array and then grab the second element add the values up
-    }
+		let totalWeightedScores = 0; // Variable to hold your total
 
-    const normalizedRewards = providerRewards.map((reward) => [
-      reward[0],
-      reward[1]
-        .dividedBy(totalWeightedScores)
-        .multipliedBy(tokensToMint)
-        .toFixed(18)
-        .toString(),
-    ]);
+		for (let i = 0, len = providerRewards.length; i < len; i += 1) {
+			console.log(+providerRewards[i][1]);
+			totalWeightedScores += +providerRewards[i][1]; // Iterate over your first array and then grab the second element add the values up
+		}
 
-    return normalizedRewards;
-  }
-  function mintSettings(tx) {
-    const providerMints = timeRewards();
+		const normalizedRewards = providerRewards.map((reward) => [
+			reward[0],
+			reward[1].dividedBy(totalWeightedScores).multipliedBy(tokensToMint).toFixed(18).toString(),
+		]);
 
-    // Save to file marked today
-    const now = new Date().toISOString().split("T")[0];
-    fs.writeFile(
-      `./log/rewards-${now}.json`,
-      JSON.stringify(providerMints),
-      (err) => {
-        if (err) {
-          console.log("Did not save transaction settings");
-          console.log(err);
-        }
-      }
-    );
+		return normalizedRewards;
+	}
+	function mintSettings(tx) {
+		const providerMints = timeRewards();
 
-    // Cut decimals for transaction
-    const cutProviderMints = providerMints.map((provider) => [provider[0],provider[1].replace(".", "")]);
-    const settings = tx;
-    const splits = _.chunk(cutProviderMints, 50);
+		// Save to file marked today
+		const now = new Date().toISOString().split('T')[0];
+		fs.writeFile(`./log/rewards-${now}.json`, JSON.stringify(providerMints), (err) => {
+			if (err) {
+				console.log('Did not save transaction settings');
+				console.log(err);
+			}
+		});
 
-    settings[0].mints = splits[1];
-    return JSON.stringify(settings, null, 2);
-  }
+		// Cut decimals for transaction
+		const cutProviderMints = providerMints.map((provider) => [provider[0], provider[1].replace('.', '')]);
+		const settings = tx;
+		const splits = _.chunk(cutProviderMints, 50);
+		console.log(splits.length);
 
-  /**
-   * Entry point to the `processGrain.js` script
-   * @returns <Promise>
-   */
-  const rewards = () => {
-    try {
-      if (providers.length < 1) {
-        console.log("this should never happen");
-        throw new Error("`addressbook.json` is empty");
-      }
+		settings[0].mints = splits[2];
+		return JSON.stringify(settings, null, 2);
+	}
 
-      // *** HARD CODED ***
-      fs.writeFile(
-        "./log/transactionSettings.json",
-        mintSettings(transaction),
-        (err) => {
-          if (err) {
-            console.log("Did not save transaction settings");
-            console.log(err);
-          }
-        }
-      );
-      return "file sucessfully written";
-    } catch (err) {
-      console.error(err);
-      process.exit(-1);
-    }
-  };
+	/**
+	 * Entry point to the `processGrain.js` script
+	 * @returns <Promise>
+	 */
+	const rewards = () => {
+		try {
+			if (providers.length < 1) {
+				console.log('this should never happen');
+				throw new Error('`addressbook.json` is empty');
+			}
 
-  console.log(mintSettings(transaction));
-  console.log(rewards());
+			// *** HARD CODED ***
+			fs.writeFile('./log/transactionSettings.json', mintSettings(transaction), (err) => {
+				if (err) {
+					console.log('Did not save transaction settings');
+					console.log(err);
+				}
+			});
+			return 'file sucessfully written';
+		} catch (err) {
+			console.error(err);
+			process.exit(-1);
+		}
+	};
+
+	console.log(mintSettings(transaction));
+	console.log(rewards());
 })();
