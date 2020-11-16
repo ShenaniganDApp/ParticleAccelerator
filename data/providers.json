@@ -3,7 +3,7 @@
     "timestamp": 1602123599056,
     "liquidityTokenBalance": "67.83912500131753539",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x017154d1f2c228765c494da30c018fa48a09e1ad"
@@ -13,7 +13,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "61.519396364251548288",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x02468bb37edff152f12144444a04b4ab78712ed7"
@@ -23,7 +23,7 @@
     "timestamp": 1602498163165,
     "liquidityTokenBalance": "68.048495135832428999",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x0252063f101b8c548ad269fa0883c5e68c9ec18e"
@@ -33,7 +33,7 @@
     "timestamp": 1603787266686,
     "liquidityTokenBalance": "0.250955936282375618",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x0405bc3da03730f78f568c8f9598e7263542aca0"
@@ -43,7 +43,7 @@
     "timestamp": 1603852305887,
     "liquidityTokenBalance": "16.112002609938710983",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x05903affd45da43a14f9a9421605e0e7a4fe2e21"
@@ -53,7 +53,7 @@
     "timestamp": 1603736665089,
     "liquidityTokenBalance": "26.322589933193672858",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x05a2a3fd03aeb06444db98c018597b8b25b10336"
@@ -61,9 +61,9 @@
   },
   {
     "timestamp": "1601938800000",
-    "liquidityTokenBalance": "17.758365058787744906",
+    "liquidityTokenBalance": "18.207605582415987357",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x076b64f9f966e3bbd0fcdc79d490ab71cf961bb0"
@@ -73,7 +73,7 @@
     "timestamp": 1603139022307,
     "liquidityTokenBalance": "0.812499917303785418",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x0e97b8fe417c78588e91a29c2cded539620ac64e"
@@ -83,7 +83,7 @@
     "timestamp": 1602573787963,
     "liquidityTokenBalance": "319.297760664107737419",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x106f4d08d0cc154d63c8f557000372c5e78caafe"
@@ -93,27 +93,17 @@
     "timestamp": 1602466767681,
     "liquidityTokenBalance": "266.492037234298707191",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x12ee31c0fb66c2a1d03232dbd0d1dc40e6b608af"
     }
   },
   {
-    "timestamp": 1604567782278,
-    "liquidityTokenBalance": "84.758902103879305442",
-    "pair": {
-      "totalSupply": "17804.686380594813571331"
-    },
-    "user": {
-      "address": "0x183bdb344a07ee3d27f07ac4799a56e4a2fe5439"
-    }
-  },
-  {
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "155.658077626378405939",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x18ee55cc36387db47c1a9808b979ceea5401c300"
@@ -123,7 +113,7 @@
     "timestamp": 1602883258159,
     "liquidityTokenBalance": "84.252297810870620491",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x1a59ff6ad0ba633076236073015cbfe70bbbd801"
@@ -133,7 +123,7 @@
     "timestamp": 1602627691494,
     "liquidityTokenBalance": "70.388874458607518899",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x1dd6bbd20730657d3daead1718ba57cfac146c86"
@@ -143,7 +133,7 @@
     "timestamp": 1603513594474,
     "liquidityTokenBalance": "4.445447881005911564",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x1f8f616f09671b68446de1f6efcbd991df6c62c3"
@@ -153,7 +143,7 @@
     "timestamp": 1603437793929,
     "liquidityTokenBalance": "76.361400058477424628",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x2241d1c14efe86d88b537ecbf4c3187a58771592"
@@ -163,7 +153,7 @@
     "timestamp": 1603787266688,
     "liquidityTokenBalance": "413.151502196058369469",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x27391bfad04e1baa6703d0bbf5d41ecee21771b8"
@@ -173,7 +163,7 @@
     "timestamp": 1602530402660,
     "liquidityTokenBalance": "107.390494655200695665",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x2b82780d23353c8aecb67431f43207339014d679"
@@ -183,7 +173,7 @@
     "timestamp": 1605489777121,
     "liquidityTokenBalance": "1.463771475966882171",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x336c25a5f45f2c546333f489eecb37ac58e63b15"
@@ -193,7 +183,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "19.184690618541423687",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x37d79855062c918492f84565fe211e615339333a"
@@ -203,7 +193,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "48.217777637438758005",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x436bb9e1f02c9ca7164afb5753c03c071430216d"
@@ -213,7 +203,7 @@
     "timestamp": 1602555867677,
     "liquidityTokenBalance": "29.843910889658398275",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x450a3129647098c5332fca98a1b609c957ad5373"
@@ -223,7 +213,7 @@
     "timestamp": 1603520715453,
     "liquidityTokenBalance": "159.691829208052677428",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x451248229712d6f207ff9466d8d3a33cb59d103c"
@@ -233,7 +223,7 @@
     "timestamp": 1603563831686,
     "liquidityTokenBalance": "4.606848498945021371",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x45778a4f9b4bd1cbcd58deb9b01ea6575b905efe"
@@ -243,7 +233,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "1.908332845986133145",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x477e37642b23224b15a54eecf199b93e81c2d08a"
@@ -253,7 +243,7 @@
     "timestamp": 1603912922123,
     "liquidityTokenBalance": "9.497285141661376755",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x4f2a65f75b3fe78fa6699e221037ac740e2f6c2e"
@@ -263,7 +253,7 @@
     "timestamp": 1603989195334,
     "liquidityTokenBalance": "0.885069490198811131",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x50153cfa1c26e411955014f1347f6fc2340e4d7a"
@@ -273,7 +263,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "118.458719491008842919",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x51318c2f3e7d9735eae7e9c9838bb972742470e5"
@@ -283,7 +273,7 @@
     "timestamp": 1605014049874,
     "liquidityTokenBalance": "15.836971401923673122",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x5289cbf7afa41e192af2f86d35e7e537f71e2977"
@@ -293,7 +283,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "501.573824077124125057",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x52f8b09fac8e1b7d7dc45643ca27d0f573814ab8"
@@ -303,7 +293,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "161.934644575303836027",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x558e1796deb3b5f94658a6c12bc934f790cd8c2d"
@@ -313,7 +303,7 @@
     "timestamp": 1602494523392,
     "liquidityTokenBalance": "56.974856890602912194",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x578ee9fdacd1788b82df1e9dae01f696525478c0"
@@ -323,7 +313,7 @@
     "timestamp": 1602404608535,
     "liquidityTokenBalance": "0.000000000000001349",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x5a49113304cd76c063f687069a98f439137ea978"
@@ -333,7 +323,7 @@
     "timestamp": 1602296580105,
     "liquidityTokenBalance": "1.553149488226443899",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x5c7e3f60cfc8798ccaf41469d1c51a530a8996ca"
@@ -343,7 +333,7 @@
     "timestamp": 1604277612291,
     "liquidityTokenBalance": "1418.642751983486508464",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x5cb045fd63f95c208048c38e0abd2cdb3537c68e"
@@ -353,7 +343,7 @@
     "timestamp": 1605025444382,
     "liquidityTokenBalance": "5.593679138221769236",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x5f4f48a2a384f44d94ad29e4e11562b3b7f7ac93"
@@ -363,7 +353,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "1699.177631158833259459",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x66b1de0f14a0ce971f7f248415063d44caf19398"
@@ -373,7 +363,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "9.932861651669604386",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x6aa5b17dcc71e248f7fc93961a0df2f5410fb3cc"
@@ -383,7 +373,7 @@
     "timestamp": 1603898814552,
     "liquidityTokenBalance": "9.089927164822551311",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x6b8d1e2373ccb5af21a86c7642b7eeef4a647f98"
@@ -393,7 +383,7 @@
     "timestamp": 1603657421956,
     "liquidityTokenBalance": "2.058624329419678454",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x6c965b656c450259a6d4d95a2e68fb4319eecbc0"
@@ -403,7 +393,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "0.451713315980455489",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x6cf5ba860c43dbeca7193dd0fe9024cedc8e5315"
@@ -413,7 +403,7 @@
     "timestamp": 1604286940229,
     "liquidityTokenBalance": "4.044022301381215451",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x7158cc374f6bac0b0f761692262bf4b3307801c1"
@@ -423,7 +413,7 @@
     "timestamp": 1602123599056,
     "liquidityTokenBalance": "29.564686037811257109",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x717c02129cb01b3c759ea960d75b48e8babc8227"
@@ -433,7 +423,7 @@
     "timestamp": 1604366370472,
     "liquidityTokenBalance": "3.283355069669505866",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x756d53c524a845a5d593c40fac355964ebbf9bda"
@@ -443,7 +433,7 @@
     "timestamp": 1602469458527,
     "liquidityTokenBalance": "45.957709152008078595",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x75857a14387afb2451251b4c6d21375595ac7bc2"
@@ -453,7 +443,7 @@
     "timestamp": 1603938657370,
     "liquidityTokenBalance": "17.811438884334214179",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x7f77af6db554c2f8df59c2f11d48fdce27721cdc"
@@ -463,7 +453,7 @@
     "timestamp": 1602472895142,
     "liquidityTokenBalance": "138.507732437645941324",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x808dee16be78b3f9c6f9a5ff4f6a9f601dfd7ca0"
@@ -473,7 +463,7 @@
     "timestamp": 1603261536088,
     "liquidityTokenBalance": "162.125842563355846587",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x81aaa9a7a8358cc2971b9b8de72acce6d7862bc8"
@@ -483,7 +473,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "156.354326539324389675",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x8467f76ba0b033232e37c9b8cc4c28756400553a"
@@ -493,7 +483,7 @@
     "timestamp": 1603507594566,
     "liquidityTokenBalance": "16.05650933815989571",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x847ec9ab99dd27ae2d3c9c0c0b25ba841aed26aa"
@@ -503,7 +493,7 @@
     "timestamp": 1603513594475,
     "liquidityTokenBalance": "5.994213681026700018",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x855f39835085fd7fb5490918fa882c4ff2dc376a"
@@ -513,7 +503,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "151.739378520566012554",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x8e59f1fe1c8d828dda49971ab96e6a003a7e2f81"
@@ -523,7 +513,7 @@
     "timestamp": 1603384280024,
     "liquidityTokenBalance": "24.125102626737220993",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x9062a96b9e947b2b57283e705c97b871f5eb6561"
@@ -533,7 +523,7 @@
     "timestamp": 1603034512993,
     "liquidityTokenBalance": "34.208649483344821461",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x92ef45cd7b12329c0fa6ba2a7751cfe38ecbe322"
@@ -543,7 +533,7 @@
     "timestamp": 1603484818789,
     "liquidityTokenBalance": "92.54094038709956874",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x951a80a9518951e4b2ff7ab88be0970b63b26b74"
@@ -553,7 +543,7 @@
     "timestamp": 1602296580105,
     "liquidityTokenBalance": "162.39357954577977035",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x9815e07054d35d7b620661fcfcfe36f7c1bc0a2b"
@@ -563,7 +553,7 @@
     "timestamp": 1604193485925,
     "liquidityTokenBalance": "4.39452315450897811",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x9b635b4a202e4bc87b1e07af4e660bd52e16385c"
@@ -573,7 +563,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "3.275070467456922639",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0x9ba62a6e1a94233833baa732095c457d4e994842"
@@ -583,7 +573,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "454.848450435827977979",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xa38d3ef13046c3c3124f1eb1b0b96f04f2d2f8f9"
@@ -593,7 +583,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "20.92491409463950337",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xa3f86f05a3bd505ea7d7cb1a8b1544ca5b4a1b6e"
@@ -603,7 +593,7 @@
     "timestamp": 1602138008105,
     "liquidityTokenBalance": "2.433978069470990655",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xa92a40457e419c5ec245a646da09112cdcc6cfb6"
@@ -613,7 +603,7 @@
     "timestamp": 1603164157086,
     "liquidityTokenBalance": "37.574858396943207995",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xa99f898530df1514a566f1a6562d62809e99557d"
@@ -623,7 +613,7 @@
     "timestamp": 1604726209995,
     "liquidityTokenBalance": "14.066673957427809782",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xad25d575fa50edfc7b68c7046514ce233f340dcf"
@@ -633,7 +623,7 @@
     "timestamp": 1602498163165,
     "liquidityTokenBalance": "3262.160171644307893448",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xada4389661b5aa5756636ca7d3c051c3d04edabb"
@@ -643,7 +633,7 @@
     "timestamp": 1603024067119,
     "liquidityTokenBalance": "232.527384214758147031",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xb0a9d798f7c8028b0e467b913a02b547d0528c4a"
@@ -653,7 +643,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "5.59148056758674618",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xb16b0f76e5328076923423fe8c985f69ec12ef84"
@@ -663,7 +653,7 @@
     "timestamp": 1604625891209,
     "liquidityTokenBalance": "7.031733616902423387",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xbd512e8028ec61332279b717a354ec6558174f76"
@@ -673,7 +663,7 @@
     "timestamp": 1602464407150,
     "liquidityTokenBalance": "11.371090699210891626",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xbdbfbb49ec9c1d18e2976062616d60e8d3126d7d"
@@ -683,7 +673,7 @@
     "timestamp": 1603920154687,
     "liquidityTokenBalance": "21.318437699816575658",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xbdf5cde794ae45ea1e310aa79ae22e8c582b0761"
@@ -693,7 +683,7 @@
     "timestamp": 1602550760081,
     "liquidityTokenBalance": "178.497360068270816535",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xc66248d16c616cd54c00ae4aee2e485659672ca4"
@@ -703,7 +693,7 @@
     "timestamp": 1602501633239,
     "liquidityTokenBalance": "27.169265802921445359",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xc6a4e70939e86e25df1cb29a7f49562a7249b0d8"
@@ -713,7 +703,7 @@
     "timestamp": 1602494523392,
     "liquidityTokenBalance": "46.927054342295182739",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xc6e57b1332776cafd2d92b963c8b12d8c937868d"
@@ -723,7 +713,7 @@
     "timestamp": 1604283464188,
     "liquidityTokenBalance": "13.43888570864157507",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xcd4046b428ddeac3f01b04895df9dbbc8bd633c9"
@@ -733,7 +723,7 @@
     "timestamp": 1602595268092,
     "liquidityTokenBalance": "18.677723481891495498",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xce5222371ed277380159050641c1804f5fe7d031"
@@ -743,7 +733,7 @@
     "timestamp": 1602796806155,
     "liquidityTokenBalance": "136.851950949716315732",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xceddf9ee6a6dc59fc29670e178eac9adae4f92e7"
@@ -753,7 +743,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "129.496160853526211856",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xd790b013ecae56e768ed184c45be7894b7f1fc3a"
@@ -763,7 +753,7 @@
     "timestamp": 1603477443396,
     "liquidityTokenBalance": "81.660682547990639783",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xd8ef5f58c3a61c92ac3ac2885d10fc66502b6a1e"
@@ -773,7 +763,7 @@
     "timestamp": 1602796806155,
     "liquidityTokenBalance": "1110.169840996622092357",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xda5b2cd0d0bb26e79fb3210233ddabdb7de131c9"
@@ -783,7 +773,7 @@
     "timestamp": 1603783464489,
     "liquidityTokenBalance": "4.266906785807077975",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xdad450898eea0ecd3d9084c7a0ec31f6d398eef7"
@@ -793,7 +783,7 @@
     "timestamp": 1602318183717,
     "liquidityTokenBalance": "0.302860437602738338",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xdae984ac030e9f8957ff27ffb1761dd9e8e9b423"
@@ -803,7 +793,7 @@
     "timestamp": 1604466935597,
     "liquidityTokenBalance": "306.121377484939164886",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xdddff3048c1d89fa8fe1221b7bc35624622b9058"
@@ -813,7 +803,7 @@
     "timestamp": 1605071707107,
     "liquidityTokenBalance": "15.480351767587447025",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xdf5f6d4e0c1138077f58b20c0e9ae33b1a0d44d3"
@@ -823,7 +813,7 @@
     "timestamp": 1603707982190,
     "liquidityTokenBalance": "4.927701682454461198",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xdf7eb70127c9065f4a9b86af66e87af292623381"
@@ -833,7 +823,7 @@
     "timestamp": 1602519934305,
     "liquidityTokenBalance": "1757.86112155065397763",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xe0802cf223a05a14408ad44e7f878d21408fb04c"
@@ -843,7 +833,7 @@
     "timestamp": 1602264025750,
     "liquidityTokenBalance": "234.037261196726919929",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xe221f2fb3833cf228cc32dff0241aa2a45695cd1"
@@ -853,7 +843,7 @@
     "timestamp": 1603704259294,
     "liquidityTokenBalance": "7.391552523681691798",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xe5033fd8b6238a0a955cc57df87693c8a90fd163"
@@ -863,7 +853,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "23.299650149503054134",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xe5c633f7de58a618e86b2da5eef6ddac1d6ab23e"
@@ -873,7 +863,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "1698.445204783738504303",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xe8adaea0ba507a28d1309051beceb4db7fe377af"
@@ -883,7 +873,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "548.308091378195227895",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xec4a914814710b5a842320a2124e03b2fb87a6e3"
@@ -893,7 +883,7 @@
     "timestamp": 1602810052793,
     "liquidityTokenBalance": "2.5533875823007691",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xedd9afd917aee86ab6d27f28aa29c6f4eeb7c2e6"
@@ -903,7 +893,7 @@
     "timestamp": 1605071707107,
     "liquidityTokenBalance": "9.690553871564800437",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf1809994d441e7dc2d0b19fd6a16fcc2c46b064d"
@@ -913,7 +903,7 @@
     "timestamp": 1605046699410,
     "liquidityTokenBalance": "1.464507526392991084",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf1fa3853cbaabdb71374d4a3ca9a8cb6ef6d7cd1"
@@ -923,7 +913,7 @@
     "timestamp": 1603736665092,
     "liquidityTokenBalance": "45.27192801957062507",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf476b5daa18ff98650c99771d807f23a7a5eaf5e"
@@ -933,7 +923,7 @@
     "timestamp": 1605323782795,
     "liquidityTokenBalance": "0.282987795198225063",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf4f1c36803b6f7dc61089a0ee5d581ef012b5632"
@@ -943,7 +933,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "6.822284190389989271",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf5d8f53a36c4bbef078e352ef38cc06132320d3c"
@@ -953,7 +943,7 @@
     "timestamp": 1603999039344,
     "liquidityTokenBalance": "25.815322129736736589",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf77e2c9b9ea81843d97a034e50aaa61b54edcc92"
@@ -963,7 +953,7 @@
     "timestamp": "1601938800000",
     "liquidityTokenBalance": "129.789056280925245704",
     "pair": {
-      "totalSupply": "17804.686380594813571331"
+      "totalSupply": "17720.37671901456250834"
     },
     "user": {
       "address": "0xf7ef5d9b5fb5db8a51c2ae75e9a6ee6920300e07"
