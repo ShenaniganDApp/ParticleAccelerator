@@ -67,7 +67,7 @@ const AGENT_ADDRESS = '0x5cb045fd63f95c208048c38e0abd2cdb3537c68e';
 		const splits = _.chunk(cutProviderMints, 50);
 		console.log(splits.length);
 
-		settings[0].mints = splits[2];
+		settings[0].mints = splits[1];
 		return JSON.stringify(settings, null, 2);
 	}
 
