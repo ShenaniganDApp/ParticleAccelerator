@@ -63,6 +63,7 @@ const AGENT_ADDRESS = '0x5cb045fd63f95c208048c38e0abd2cdb3537c68e';
 
 		// Cut decimals for transaction
 		const cutProviderMints = providerMints.map((provider) => [provider[0], provider[1].replace('.', '')]);
+		console.log('cutProviderMints: ', cutProviderMints.length);
 		const settings = tx;
 		const splits = _.chunk(cutProviderMints, 50);
 		console.log(splits.length);
